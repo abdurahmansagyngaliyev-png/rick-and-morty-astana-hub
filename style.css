@@ -1,0 +1,21 @@
+.card {
+    transition: all 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(74, 222, 128, 0.2);
+}
+
+.active-tab {
+    border-bottom: 4px solid #4ade80;
+    color: #4ade80 !important;
+}
+
+::-webkit-scrollbar {
+    width: 8px;
+}
+::-webkit-scrollbar-thumb {
+    background: #4ade80;
+    border-radius: 10px;
+}
